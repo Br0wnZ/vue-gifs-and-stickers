@@ -1,15 +1,14 @@
 {
-  "name": "14-gif-route",
+  "name": "gifs-stickers",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "deploy": "node scripts/gh-pages-deploy.js"
+    "build": "vue-cli-service build"
   },
   "vue": {
     "pwa": {
-      "name": "Gif Router",
+      "name": "GifStickers",
       "themeColor": "#444444",
       "appleMobileWebAppCapable": "yes",
       "appleMobileWeAppStatusBarStyle": "black-translucent"
@@ -33,7 +32,6 @@
     "@vue/compiler-sfc": "^3.0.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
-    "typescript": "~4.1.5",
-    "execa": "latest"
+    "typescript": "~4.1.5"
   }
 }
